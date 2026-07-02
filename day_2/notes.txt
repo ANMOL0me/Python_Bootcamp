@@ -7,3 +7,8 @@ no need to declare data type
 => variable rules
 :start with alphabet
 :case sensitive [Age and age is diff]
+: only underscore sign can be used.
+
+=> Data Types
+1 integer ; int
+2 float ; float
