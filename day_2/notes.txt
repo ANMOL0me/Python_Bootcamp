@@ -12,3 +12,6 @@ no need to declare data type
 => Data Types
 1 integer ; int
 2 float ; float
+
+=> Type casting
+: it shows the data type of variable.
