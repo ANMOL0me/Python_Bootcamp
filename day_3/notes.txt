@@ -8,3 +8,8 @@ ADD METHOD
 print(3 + 5) = 35 .
 =>in this case print(a + 5)
 we will think it will work but in starting if we declare a = input() it will automatically take it as string.
+To make it woerking we use typecasting.
+a = int(input())
+     OR
+a = input()
+a = int(a)     
