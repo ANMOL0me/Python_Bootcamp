@@ -1,7 +1,6 @@
 INPUT METHOD
 =>To take input from user we use a keyword "input"
   var_name = input
-=> \n used for line change.
 
 ADD METHOD
 =>using print(a + b) doesn't add two no. it only prints it .
@@ -13,3 +12,10 @@ a = int(input())
      OR
 a = input()
 a = int(a)     
+
+ESCAPE SEQUENCE
+=> \n For new line.
+=> \t for new tab(space in between).
+=> \" for doublw quote.
+=> \' for isngle quote.
+
