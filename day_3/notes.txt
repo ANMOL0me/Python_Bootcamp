@@ -17,5 +17,12 @@ ESCAPE SEQUENCE
 => \n For new line.
 => \t for new tab(space in between).
 => \" for doublw quote.
-=> \' for isngle quote.
+=> \' for single quote.
 
+Default behaviour of print statennment
+print()
+print()
+
+REPL
+read evaluate print loop
+python in command panel
