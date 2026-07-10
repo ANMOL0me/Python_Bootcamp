@@ -23,6 +23,12 @@ Default behaviour of print statennment
 print()
 print()
 
-REPL
+*REPL
 read evaluate print loop
 python in command panel
+
+OPERATORS
+|Arithmetic - num output
+|Comparison - boolean output
+|Boolean 
+|Assignment
