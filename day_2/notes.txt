@@ -1,12 +1,13 @@
-Variable
+=> Variable
 `it is memory location where manipulation of data is done.
 `program loaded in memory(RAM) for running.
 `= is assignment operator.
 `python is 'dynamically typed language' 
-no need to declare data type 
+ no need to declare data type 
+
 => variable rules
-:start with alphabet
-:case sensitive [Age and age is diff]
+: start with alphabet
+: case sensitive [Age and age is diff]
 : only underscore sign can be used.
 
 => Data Types
@@ -15,3 +16,4 @@ no need to declare data type
 
 => Type casting
 : it shows the data type of variable.
+: it can convert data types.

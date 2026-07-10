@@ -1,0 +1,3 @@
+=>To take input from user we use a keyword "input"
+  var_name = input
+=> \n used for line change.
