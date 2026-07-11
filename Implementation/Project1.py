@@ -1,5 +1,6 @@
+print("----------------CALCULATOR----------------")
 print("Addition = '+'\nSubtraction = '-'\nDivision = '/'\nMultiplication = '*'\nExponential = '**' ")
-but = string(input("To proceed press p"))
+but = str(input("To proceed press p"))
 if(but == "p"):
     num1 = float(input("Enter num1=\t"))
     op = str(input("operation to be performed=\t"))
@@ -7,12 +8,12 @@ if(but == "p"):
     if (op=="+"):
         print("Sum =\t",num1+num2)
     elif (op=="-"):
-        print("Diff =\t",num1-num2
+        print("Diff =\t",num1-num2)
     elif (op=="*"):
         print("Mul =\t",num1*num2)
     elif (op=="/"):
         print("Div =\t",num1/num2)
     elif (op=="**"):
         print("Expon =\t",num1**num2)
-           else:
+    else:
         print("check the input") 
