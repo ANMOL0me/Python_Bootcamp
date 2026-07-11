@@ -14,7 +14,4 @@ if(but == "p"):
         print("Div =\t",num1/num2)
     elif (op=="**"):
         print("Expon =\t",num1**num2)
-
-    else:
-        print("check the input")        
-
+           
