@@ -32,3 +32,5 @@ OPERATORS
 |Comparison - boolean output
 |Boolean 
 |Assignment
+|Membership [ in and not in]
+|Identity  [ is and is not]
