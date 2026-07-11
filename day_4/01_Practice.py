@@ -4,7 +4,7 @@
 Write a program that prints:
 Hello, World! Welcome to Python.
 '''
-#print("Hello, World! Welcome to Python\n")
+print("Hello, World! Welcome to Python\n")
 
 '''
 Q2: Print a Poem
@@ -13,7 +13,7 @@ Write a program that prints the following poem using a single print() statement:
 Twinkle, twinkle, little star,
 How I wonder what you are!
 '''
-#print("Twinkle, twinkle, little star\nHow I wonder what you are!")
+print("Twinkle, twinkle, little star\nHow I wonder what you are!")
 
 
 '''
@@ -26,12 +26,12 @@ Your height in meters (float)
 A boolean value representing whether you are a student
 Print all of them in one line.
 '''
-#name = str(input("your_name\t"))
-#age = int(input("your_age\t"))
-#height = float(input("your_height\t"))
+name = str(input("your_name\t"))
+age = int(input("your_age\t"))
+height = float(input("your_height\t"))
 
-#is_student = True
-#print("Name is \t"+name+"\nAge is\t\t",age,"\nHeight is\t",height)
+is_student = True
+print("Name is \t"+name+"\nAge is\t\t",age,"\nHeight is\t",height)
 
 
 '''
@@ -42,9 +42,9 @@ Convert it into an integer
 Add 10 to it
 Print the result
 '''
-#num = "45"
-#num = int(num)
-#print(num+10)
+num = "45"
+num = int(num)
+print(num+10)
 '''
 Q5: Taking User Input
 Write a program that:
@@ -52,8 +52,8 @@ Asks the user for their favorite food.
 Prints:
 Wow! I also like <food>.
 '''
-#food = input("Favourite_Food\t")
-#print("Favourite food = ",food)
+food = input("Favourite_Food\t")
+print("Favourite food = ",food)
 
 '''
 Q6: Simple Calculator
@@ -67,12 +67,12 @@ Product
 Quotient
 
 '''
-#num1 = float(input("Enter no. 1\t"))
-#num2 = float(input("Enter no. 2\t"))
-#print("SUM = ",num1 + num2)
-#print("DIFF = ",num1 - num2)
-#print("PROD = ",num1 * num2)
-#print("QUOT = ",num1 / num2)
+num1 = float(input("Enter no. 1\t"))
+num2 = float(input("Enter no. 2\t"))
+print("SUM = ",num1 + num2)
+print("DIFF = ",num1 - num2)
+print("PROD = ",num1 * num2)
+print("QUOT = ",num1 / num2)
 '''
 Q7: Escape Sequences
 Print the following output using escape sequences:
@@ -81,20 +81,13 @@ This is on a new line.
 This is a tab →	    after tab.
 '''
 print("Hello \"Python\" World!\nThis is on a new line.This is a tab →\t after tab.")
+
 '''
 Q8: Operator Challenge
 Write a program that:
-
 Takes an integer as input from the user.
 Prints the square and cube of that number.
-Q9: Quick Quiz (True/False)
-Mark each as True or False:
-
-Python code must always end with a semicolon ;
-The # symbol is used for comments in Python
-"123" and 123 are the same in Python
-The * operator is used for multiplication
-\n creates a new line
-Variables in Python can start with numbers
-int("10") + 5 gives 15
 '''
+num = int(input("enter a num\t"))
+print("Square of num =",num**2,"\nCube of num =",num**3)
+
