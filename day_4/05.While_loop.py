@@ -1,4 +1,4 @@
-count = 0
+'''count = 0
 
 while count < 4:
     print(count)
@@ -8,11 +8,14 @@ while count < 4:
             for i in range(1, 6):
                 print(i)
         case _:
-            print("no")
-            
+            print("no")        
     count +=1
 
+'''
 
+i = 6
+while i<8:
+    print(i)
 
 
 
