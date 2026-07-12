@@ -2,3 +2,8 @@
 1> 'If (condition) :'
 2> for 2 condition we use 'Elif (condition) :'
 3> for default we use 'else :'
+
+=> Match Conditionals
+=> For loops
+|> for i in range():
+|> for i in var:

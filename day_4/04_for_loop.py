@@ -1,2 +1,5 @@
-for i in range(1, 6):#1 to n-1
-    print(i)
+num = {1,2,3,4}
+for i in num:
+    print(num)
+for fruit in range(1, 9):
+    print(fruit)
