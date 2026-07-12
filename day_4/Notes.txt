@@ -7,3 +7,5 @@
 => For loops
 |> for i in range():
 |> for i in var:
+=>While loop
+|> while condition:
