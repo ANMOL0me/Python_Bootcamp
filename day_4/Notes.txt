@@ -9,3 +9,10 @@
 |> for i in var:
 =>While loop
 |> while condition:
+|> while true used for infinite loop
+
+
+===> Loop control statenment
+=> BREAK statenment break the loop.
+=> CONTINUE statenment continue the loop.
+=> PASS statenment when nothing to do.
