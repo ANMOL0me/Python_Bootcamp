@@ -18,3 +18,4 @@
 => PASS statenment when nothing to do.
 
 To print a string several time i can use '  "*"*i n'
+To reverse a num we can use (num)[::-1]
