@@ -16,3 +16,5 @@
 => BREAK statenment break the loop.
 => CONTINUE statenment continue the loop.
 => PASS statenment when nothing to do.
+
+To print a string several time i can use '  "*"*i n'
