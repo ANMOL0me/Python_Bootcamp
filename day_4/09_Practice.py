@@ -105,3 +105,30 @@ Print the following pattern using a for loop:
 for i in range(1,5):
     print("*"*i)
     
+
+'''
+4. While Loops
+Print numbers from 1 to 10 using a while loop.
+'''
+x=1
+while x<=10:
+    print(x)
+
+'''
+Write a program that keeps asking the user to enter a password until they enter the correct one.
+'''
+print("pass is between 1 to 10")
+while True:
+    pasw=int(input("Enter pass\t"))
+    if pasw==5:
+        print("pass correct")
+        break
+    elif pasw!=5:
+        print("pass incorrect")
+        continue
+    
+
+'''
+Use a while loop to reverse a given number (e.g., 123 → 321).
+
+'''
