@@ -1,0 +1,4 @@
+:>We have diffrent types of way to write a string.
+1: singe quote
+2: double quote
+3: tripple quote
