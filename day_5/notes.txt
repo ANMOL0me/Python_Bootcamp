@@ -2,3 +2,5 @@
 1: singe quote
 2: double quote
 3: tripple quote
+
+:> if we print the index it will automatically print the index value.
