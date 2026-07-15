@@ -4,3 +4,8 @@
 3: tripple quote
 
 :> if we print the index it will automatically print the index value.
+
+:> 
+text = "Python"
+print(text[::4])
+output = po
