@@ -20,3 +20,22 @@ print(text.replace("hello","world"))
 txt = "apple.banana,mango"
 fruits = text.split(",")
 print(fruits)
+
+new_txt = " - ".join(fruits)
+print(new_txt)
+
+
+#string properties
+ 
+str = "python123"
+print(str.isalpha())
+print(str.isdigit())
+print(str.isalnum())
+print(str.isspace())
+
+# length
+charac = "hello , python"
+print(len(charac))
+print(ord('A'))
+print(charac(65))
+
