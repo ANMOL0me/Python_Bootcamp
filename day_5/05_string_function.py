@@ -39,3 +39,5 @@ charac = "hello , python"
 print(len(charac))
 print(ord('A'))
 print(charac(65))
+
+#this is immutability
