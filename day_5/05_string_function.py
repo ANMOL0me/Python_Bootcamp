@@ -1,43 +1,41 @@
-#case changing
-
-text = "  Python hello  "
-print(text.upper())
-print(text.lower())
-print(text.title())
-print(text.capitalize())
+text = "hello world"
+print(text.upper())  # Output: "HELLO WORLD"
+print(text.lower())  # Output: "hello world"
+print(text.title())  # Output: "Hello World"
+print(text.capitalize())  # Output: "Hello world"
 
 
-#remove whitespace
-#text = "hello world"
-print(text.strip())
-print(text.lstrip())
-print(text.rstrip())
+text = "  hello world  "
+print(text.strip())  # Output: "hello world"
+print(text.lstrip()) # Output: "hello world  "
+print(text.rstrip()) # Output: "  hello world"
 
-#Finding and Replacing
-print(text.find("hello"))
-print(text.replace("hello","world"))
 
-#splitting and joining
-txt = "apple.banana,mango"
+text = "  hello world  "
+print(text.strip())  # Output: "hello world"
+print(text.lstrip()) # Output: "hello world  "
+print(text.rstrip()) # Output: "  hello world"
+
+
+
+text = "Python is fun"
+print(text.find("is"))   # Output: 7
+print(text.replace("fun", "awesome"))  # Output: "Python is awesome"
+
+
+text = "apple,banana,orange"
 fruits = text.split(",")
-print(fruits)
+print(fruits)  # Output: ['apple', 'banana', 'orange']
 
-new_txt = " - ".join(fruits)
-print(new_txt)
+new_text = " - ".join(fruits)
+print(new_text)  # Output: "apple - banana - orange"
 
 
-#string properties
- 
-str = "python123"
-print(str.isalpha())
-print(str.isdigit())
-print(str.isalnum())
-print(str.isspace())
-
-# length
-charac = "hello , python"
-print(len(charac))
-print(ord('A'))
-print(charac(65))
-
-#this is immutability
+text = "Python123"
+print(text.isalpha())  # Output: False
+print(text.isdigit())  # Output: False
+print(text.isalnum())  # Output: True
+print(text.isspace())  # Output: Falsetext = "Hello, Python!"
+print(len(text))  # Output: 14
+print(ord('A'))  # Output: 65
+print(chr(65))   # Output: 'A'
