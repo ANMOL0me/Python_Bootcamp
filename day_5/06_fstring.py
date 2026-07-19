@@ -9,3 +9,5 @@ c = "akshita"
 
 s1 = template.format(a)
 print(s1)
+
+print(f"hi {b} how are you")
