@@ -34,3 +34,26 @@ print(text[::2])
 Reverse the string text using slicing.
 '''
 print(text[::-1])
+
+'''
+Take the string "  i love python programming  " and:
+
+Remove extra spaces from both ends
+Convert it to title case
+Count how many times "o" appears
+'''
+line =" i love python programming "
+print(line.strip())
+print(line.title())
+print(line.count("o"))
+
+
+
+'''
+Check if the string "123abc" is alphanumeric.
+'''
+str3="123abc"
+if str3.isalnum():
+    print("yes")
+else:
+    print("no")    
