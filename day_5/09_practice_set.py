@@ -57,3 +57,38 @@ if str3.isalnum():
     print("yes")
 else:
     print("no")    
+
+
+'''
+4. String Formatting and f-Strings
+Using format(), create a sentence:
+"My name is John and I am 25 years old."
+by passing "John" and 25 as variables.
+'''
+
+
+name = "john"
+age = 25
+print(f"my name {name}")
+
+
+
+'''
+Do the same using f-strings.
+'''
+name = "john"
+age = 25
+print("my name {}".format(name))
+
+'''
+String Manipulation Challenges
+Given sentence = "Coding in Python is fun", replace "fun" with "awesome" and print it.
+'''
+sentence = "Coding in python is fun"
+new = sentence.replace("fun","awesome")
+print(new)
+
+'''
+Find the index of the word "Python" in sentence.
+Convert the entire sentence to uppercase and print it
+'''
