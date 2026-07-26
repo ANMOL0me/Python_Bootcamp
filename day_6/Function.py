@@ -1,8 +1,6 @@
-a = input(float("Enter a num"))
-b = input(float("Enter a num"))
+a = int(input("Enter a num"))
+b = int(input("Enter a num"))
 print(add(a,b))
-
-
 
 def add(a,b):
  return a+b
