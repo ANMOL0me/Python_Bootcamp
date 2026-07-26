@@ -1,0 +1,4 @@
+> Types of arguments
+1. Positional argument
+2. Default argument
+3. Keyword argument
