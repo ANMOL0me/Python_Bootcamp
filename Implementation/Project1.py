@@ -1,3 +1,4 @@
+#CALCULATOR
 print("----------------CALCULATOR----------------")
 print("Addition = '+'\nSubtraction = '-'\nDivision = '/'\nMultiplication = '*'\nExponential = '**' ")
 but = str(input("To proceed press p"))
