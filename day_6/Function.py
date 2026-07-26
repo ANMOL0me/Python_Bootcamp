@@ -20,4 +20,4 @@ match op:
  case 4:
   print(div(a,b))
  case _:
-  print("check input")
+  print("Check input")
