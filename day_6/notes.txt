@@ -2,3 +2,6 @@
 1. Positional argument
 2. Default argument
 3. Keyword argument
+
+>Lambda is used for inline function
+- they don't need a return keyword
