@@ -1,1 +1,4 @@
 "import" is the keyword used to import someone code.
+Two types of modules
+1. internal modules ex: math{import math , print(dir(math)) }
+2. external modules{'pip install' used to install }
