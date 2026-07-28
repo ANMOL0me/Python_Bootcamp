@@ -18,8 +18,15 @@ def full_name(first,last):
 full_name("anmol","soni")
  
 
-'''
-Write a function calculate_area(length, width=10) that returns the area of a rectangle. Test it by calling the function with:
+'''Write a function calculate_area(length, width=10) that returns the area of a rectangle. Test it by calling the function with:
 
 Both length and width
 Only length (use default width)'''
+def calculate_area(length,width = 10):
+ return length*width
+print(calculate_area(2,4))
+print(calculate_area(2,))
+
+'''3. Lambda Functions
+Write a lambda function that adds two numbers and test it.
+Create a list [1, 2, 3, 4, 5] and use map() with a lambda function to get their squares.'''
