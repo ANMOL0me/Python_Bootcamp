@@ -45,7 +45,7 @@ def factorial(x):
 print(factorial(5))
 
 
-'''Write a recursive function sum_of_digits(n) that returns the sum of all digits of a given number.'''
+'''Write a recursive function sum_of_digits(n) that returns the sum of all digits of a given number. '''
 
 def sum_of_digit(n):
  if n==0:
