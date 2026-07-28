@@ -1,2 +1,2 @@
-import math
-print(math.sq(4))
+import os
+print(dir(os))
