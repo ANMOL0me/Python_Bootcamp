@@ -6,4 +6,4 @@
 >Lambda is used for inline function
 - they don't need a return keyword
 
-> A function calls itself.
+> recursion :A function calls itself.
