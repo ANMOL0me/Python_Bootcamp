@@ -1,3 +1,4 @@
+import math
 '''1. Defining Functions
 >Write a function greet() that prints "Hello, Python Learner!" when called.'''
 def greet():
@@ -53,4 +54,11 @@ def sum_of_digit(n):
  return n%10 + sum_of_digit(n//10)
 print(sum_of_digit(424))
   
-  
+'''5.Import the math module and use it to:
+
+Find the square root of 144
+Calculate sin(90°) (hint: use math.radians())
+'''
+
+print(math.sqrt(144))
+print(math.radians(90))
