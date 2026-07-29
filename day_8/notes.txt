@@ -1,4 +1,4 @@
-list methods :
+list methods : ordered , mutable(changeable)
 1>append  : only takes one argument
 2>insert  : takes more than one argument
 3>remove  : argument takes
