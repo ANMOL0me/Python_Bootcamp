@@ -1,4 +1,4 @@
-list methods :-
+list methods[] :-
 _________________________________________________
 |>ordered(index is used),>mutable(changeable)   |
 |1>append  : only takes one argument            |
@@ -8,12 +8,23 @@ _________________________________________________
 |________This_changes_the_original_list_________|                                     
 
 
-Tuple methods :-  
+Tuple methods() :-  
 _________________________________________________
 |ordered(index is used),immutable(unchangeable) |
 |print(my_tuple.count(3))                       |
 |print(my_tuple.index(3))                       |
-|                                               |
-|                                               |
+|                                               |                                             |________This_changes_the_original_list_________|                                     
+ 
+
+
+Sets methods{} :-  
+_________________________________________________
+|unordered , Uniques collection(no duplicate)   |
+|my_set.add()                                   |
+|my_set.remove()                                |                                                                     |my_set.discard() no error if element not found |
+|my_set.pop() random element                    |
+|my_set.union()                                 |
+|my_set.intersection()                          | 
+|my_set.diffrence()                             |
 |________This_changes_the_original_list_________|                                     
  
