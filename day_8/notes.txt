@@ -13,7 +13,7 @@ _________________________________________________
 |ordered(index is used),immutable(unchangeable) |
 |print(my_tuple.count(3))                       |
 |print(my_tuple.index(3))                       |
-|                                               |                                             |________This_changes_the_original_list_________|                                     
+|                                               |                                             |_______________________________________________|                                     
  
 
 
@@ -27,5 +27,15 @@ _________________________________________________
 |my_set.union()                                 |
 |my_set.intersection()                          | 
 |my_set.diffrence()                             |
-|________This_changes_the_original_list_________|                                     
+|_______________________________________________|                                     
  
+
+
+Dictionaries methods() :-  
+__________________________________________________
+|stores key values                               |
+|print(my_dict.keys())                           |
+|print(my_dict.clear())                          |
+|print(my_dict.pop("keys"))                      |                                             |print(my_dict.values())                         |
+|print(my_dict.items())                          |
+|________________________________________________|                                     
