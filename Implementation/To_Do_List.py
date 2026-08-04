@@ -1,8 +1,8 @@
-
 def show(task,priority,due,status): 
- if (priority=="+")
- print("Task\tPriority\tDue\tstatus") 
- print(f"{task}\t{priority}\t{due}\t{status}")
+ for i in range(5):
+  if (priority[i]=="+"):
+   print("Task\tPriority\tDue\tstatus") 
+   print(f"{task(i)}\t{priority(i)}\t{due(i)}\t{status(i)}")
  
 def add(task,priority,due,status):
  task = input("Enter the task")
@@ -10,7 +10,6 @@ def add(task,priority,due,status):
  due = input("Enter the due date")
  Status = input("Status(y/n)")
  show(task,priority,due,status)
-
 
 
 task = []
@@ -32,7 +31,7 @@ while True:
   case 3:
    customize() 
   case 4:
-   show()
+   show(task,priority,due,status)
   case 5:
    exit
   case _:
