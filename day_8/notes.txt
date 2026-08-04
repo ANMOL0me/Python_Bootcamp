@@ -16,6 +16,7 @@ _________________________________________________
 |ordered(index is used),immutable(unchangeable) |
 |print(my_tuple.count(3))                       |
 |print(my_tuple.index(3))                       |
+|list = tuple(list)                             |
 |Fixed collections, dictionary keys             |                                             |_______________________________________________|                                     
  
 
