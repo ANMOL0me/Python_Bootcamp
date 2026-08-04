@@ -1,10 +1,12 @@
 list methods[] :-
 _________________________________________________
-|>ordered(index is used),>mutable(changeable)   |
+|>ordered(index is used),>-mutable(changeable)  |
 |1>append  : only takes one argument            |
 |2>insert  : takes more than one argument       |
 |3>remove  : argument takes                     | 
-|4>pop     : removes last element               |  |5>reverse : reverses the list                  |  |6>sort    : sorts the element                  |
+|4>pop     : removes last element               | 
+|5>reverse : reverses the list                  |  
+|6>sort    : sorts the element                  |
 |storing sequences, dynamic data                |
 |________This_changes_the_original_list_________|                                     
 
