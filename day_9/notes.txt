@@ -1,0 +1,25 @@
+#OOP's 
+>it's a way of programming that creates an object.
+>Template = class :
+ classes provide an blueprint
+ object are instance of class
+>Example:
+ CAR>>>{alto,maruti,suzuki}
+ Class>>object.
+>When to use
+ 1.Organization
+ 2.Reusability
+ 3.Easier debugging
+ 4.Real world
+>Four pillars
+ 1.Abstarction:
+   Bundles of codes not knowing work behind in it.
+ 2.Encapsulation:
+   bundling data together
+ 3.Inheritance:
+   extending the class
+ 4.Polymorphism:
+   poly means "many" morph means "form"
+   
+  
+ 
