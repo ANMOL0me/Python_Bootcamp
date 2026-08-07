@@ -2,10 +2,11 @@
 class form:
  name = "anmol"
  age = 20
- def __init__():
-  print("constructor")
- def out():
+ #def __init__():
+  #print("constructor")
+ def out(name,age):
   print(f"name = {name}\nage = {age}")
 
-elective = form
-print(elective.out())
+
+e = form()
+print(e.out(age))
