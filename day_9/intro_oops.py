@@ -2,11 +2,10 @@
 class form:
  name = "anmol"
  age = 20
- #def __init__():
-  #print("constructor")
- def out(name,age):
-  print(f"name = {name}\nage = {age}")
+ def out(self):
+  print(f"name = {self.name} , age = {self.age}")
 
 
 e = form()
-print(e.out(age))
+print(e.out())
+close e

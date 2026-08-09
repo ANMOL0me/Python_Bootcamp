@@ -21,5 +21,12 @@
  4.Polymorphism:
    poly means "many" morph means "form"
    
-  
+>>How to call object
+class template:
+ data = 889
+ def fun(self):
+  print(self.data)
+obj = template()
+print(obj.fun())
+
  
