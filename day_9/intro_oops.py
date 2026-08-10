@@ -8,4 +8,3 @@ class form:
 
 e = form()
 print(e.out())
-close e
