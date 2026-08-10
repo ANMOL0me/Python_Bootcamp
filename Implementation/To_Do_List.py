@@ -11,7 +11,8 @@ def add(task,priority,due,status):
  Status = input("Status(y/n)")
  show(task,priority,due,status)
 
-
+def remove(task,priority,due,status):
+ 
 task = []
 priority = []
 due = []
