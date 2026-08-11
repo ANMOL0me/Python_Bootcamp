@@ -9,3 +9,4 @@ class dog(animal):
   print("woof!")
 d = dog
 d.speak()
+d.speak(animal)
