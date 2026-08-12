@@ -27,5 +27,5 @@ class Animal:
 class Dog(Animal):
  def sound():
   return "BArk!"
-obj2 = Dog
-print(obj2.sound())
+obj2 = Dog()
+print(obj2.sound()) 
