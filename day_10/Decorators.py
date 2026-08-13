@@ -20,16 +20,16 @@ def day_hello():
 f = fun1(day_hello) # f is fun1 function with argument day_hello fun
 f() #it calls f  '''
 
-def fun1(funa):
- def fun2(funa):
-  def fun3():
-   print("function b")
-   funa()
-   funa()
-  return fun3
- return fun2  
-def funz():
- print("function z")
+def repeat(n):
+ def decorator(func):
+  def wrapper(a):
+   for i in range(n):
+    func(a)
+  return wrapper 
+ return decorator
 
-d = fun1(funz)
-d()  
+@repeat(2)
+def hel(a):
+ print(f"hello! {a}")
+hel("mmm")
+
