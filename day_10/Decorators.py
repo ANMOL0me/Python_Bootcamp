@@ -1,4 +1,4 @@
-def decorator(func):
+'''def decorator(func):
  def wrapper():
   print("I am about to print hello...")
   func()
@@ -8,5 +8,28 @@ def decorator(func):
 def say_hello():
  print("Hello")
 f = decorator(say_hello)
-f()
+f() 
+def fun1(fun2):  #1 argument passes
+ def funo(): #  3 function calls
+  print("1") # 4 this prints
+  fun2()     # 5 function calls fun2 = day_hello
+  print("3") # 6 this prints
+ return funo  # 2 returns funo
+def day_hello():
+ print("hello")
+f = fun1(day_hello) # f is fun1 function with argument day_hello fun
+f() #it calls f  '''
 
+def fun1(funa):
+ def fun2(funa):
+  def fun3():
+   print("function b")
+   funa()
+   funa()
+  return fun3
+ return fun2  
+def funz():
+ print("function z")
+
+d = fun1(funz)
+d()  
