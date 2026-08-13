@@ -1,1 +1,10 @@
 Decorator is a function that take a function then it creates a new function inside its body (wrapper). then it returns the new function.
+
+>>> Split
+
+h = "I am going to home"
+k = h.split(" ")
+print(k)
+for i in range(3):
+ print(k[i])
+##['I', 'am', 'going', 'to', 'home']
