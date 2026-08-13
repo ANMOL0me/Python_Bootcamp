@@ -31,4 +31,3 @@ echo ============================
 echo       Push Complete!
 echo ============================
 echo ANMOL SONI
-pause
