@@ -1,22 +1,22 @@
 class Vehicle:
  def vehiclenumber(self,vno):
   self.vno = vno
-  return vno
+  return f"Vehicle_no = {vno}"
  def brand(self,vbrand):
   self.vbrand = vbrand
-  return vbrand
+  return f"Brand = {vbrand}"
  def model(self,vmodel):
   self.vmodel = vmodel
-  return vmodel
+  return f"Model = {vmodel}"
  def price(self,vprice):
   self.vprice = vprice
-  return vprice
+  return f"Price = {vprice}"
  def speed(self,vspeed):
   self.vspeed = vspeed
-  return vspeed
+  return f"Speed = {vspeed}"
  def fueltype(self,vfueltype):
   self.vfueltype = vfueltype
-  return vfueltype
+  return f"Fuel = {vfueltype}"
 
 
 
