@@ -1,14 +1,14 @@
 from Vehicle_details import Vehicle
-class Car(Vehicle):
+class Bike(Vehicle):
     pass
-V1 = Car()
+V1 = Bike()
 V1.Vfuel("Petrol")
-V1.Vprice('2,33,499')
-V1.Vmodel('KK#L@S')
-V1.Vnumberplate('KK90DJ9299')
-V1.Vname("ALTO")
+V1.Vprice('1,89,999')
+V1.Vmodel('XB223&#')
+V1.Vnumberplate('HA67KK!221')
+V1.Vname("Ninja")
 V1.Vbrand("Suzuki")
-def car_display():
+def Bike_display():
     print("---------------------")
     V1.show_details()
     print("---------------------")
