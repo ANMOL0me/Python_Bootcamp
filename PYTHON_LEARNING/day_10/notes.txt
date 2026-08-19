@@ -8,3 +8,5 @@ print(k)
 for i in range(3):
  print(k[i])
 ##['I', 'am', 'going', 'to', 'home']
+
+>> Try and accept used to handle errors.

@@ -11,6 +11,7 @@ class Employee:
   return f"{self.name}" 
 
 e = Employee("ssss",43222)
+print(len(e.name))
 print(e.name , e.salary)
 print(str(e))
 print(repr(e))
