@@ -5,5 +5,10 @@ while True:
         print(f"The sum is {a + b}")
     except Exception as e:
         print(e) 
+    else:
+        print(";::")    
+    finally:
+        print("---")
     if b == 0:
         raise ValueError("dont do this")    
+     
