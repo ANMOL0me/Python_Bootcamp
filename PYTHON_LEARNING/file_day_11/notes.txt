@@ -1,0 +1,6 @@
+varible are temporary memory.
+files are used to store.
+file operation are
+> Read = read binary-rb , read text-rt
+> Write
+> Append
