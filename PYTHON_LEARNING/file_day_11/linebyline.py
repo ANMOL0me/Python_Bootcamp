@@ -1,6 +1,6 @@
-f = open("dummyfile.txt","r")
+'''f = open("dummyfile.txt","r")
 
 for line in f:
  print(line)
-'''content = f.read()
+content = f.read()
 f.close'''
