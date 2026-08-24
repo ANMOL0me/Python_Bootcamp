@@ -1,4 +1,4 @@
-f = open("demofile.txt","rt")
+f = open("dummyfile.txt","r")
 
 content = f.read()
 print(content)
