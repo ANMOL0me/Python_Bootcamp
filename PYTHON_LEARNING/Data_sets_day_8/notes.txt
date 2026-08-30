@@ -17,7 +17,8 @@ _________________________________________________
 |print(my_tuple.count(3))                       |
 |print(my_tuple.index(3))                       |
 |list = tuple(list)                             |
-|Fixed collections, dictionary keys             |                                             |_______________________________________________|                                     
+|Fixed collections, dictionary keys             |             
+|_______________________________________________|                                     
  
 
 
@@ -26,7 +27,8 @@ _________________________________________________
 |unordered , Uniques collection(no duplicate)   |
 |my_set.add()                                   |
 |my_set.remove() gives error when element not   |
-|present                                        |                                                                     |my_set.discard() no error if element not found |
+|present                                        |                                                                 
+|my_set.discard() no error if element not found |
 |my_set.pop() random element                    |
 |my_set.union()                                 |
 |my_set.intersection()                          | 
@@ -36,11 +38,13 @@ _________________________________________________
  
 
 
-Dictionaries methods() :-  
+Dictionaries methods{"key":"value"} :-  
 __________________________________________________
 |stores key values                               |
 |print(my_dict.keys())                           |
 |print(my_dict.clear())                          |
-|print(my_dict.pop("keys"))                      |                                             |print(my_dict.values())                         |
+|print(my_dict.pop("keys"))                      |                                             
+|print(my_dict.values())                         |
 |print(my_dict.items())                          |
-|Fast lookups, structured data                   | |________________________________________________|                                     
+|Fast lookups, structured data                   | 
+|________________________________________________|                                     
