@@ -1,17 +1,20 @@
 import operation
 try:
  while(1): 
-   n1 = input("Enter a num =")
+   n1 = input("Enter a num = ")
    while(n1=="exit"):
     exit() 
    op = input("operation  = ")
    while(op=="exit"):
     exit()
-   n2 = input("Enter a num =")
+   n2 = input("Enter a num = ")
    while(n2 =="exit"):
     exit()
-   n1 = int(n1)
-   n2 = int(n2)
+   try:
+    n1 = int(n1)
+    n2 = int(n2)
+   except ValueError:
+    raise ValueError("Check number")
    match op:
     case "+":
      print(operation.Add(n1,n2))
@@ -24,4 +27,4 @@ try:
     case _:
      print("Invalid operation")
 except Exception as e:
- print("e")
+ print(e)
