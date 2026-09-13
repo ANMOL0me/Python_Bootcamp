@@ -16,6 +16,8 @@ This repository contains projects at different stages of development, from Pytho
 | [Snake water gun](./Snake%20water%20gun) | Classic Snake-Water-Gun game | Python logic |
 | [Vehicle_Managment_System](./Vehicle_Managment_System) | Vehicle management application | OOP, project structure |
 | [pdf_merger](./pdf_merger) | Utility for merging PDF files | Python automation |
+| [Notification](./notification)|Notify through library|Loop,conditions |
+| [News](./News_Extracter)|using requests library|Requests|
 | [implementations.ipynb](./implementations.ipynb) | Python implementations developed in Google Colab | Practice, experimentation |
 
 ---
