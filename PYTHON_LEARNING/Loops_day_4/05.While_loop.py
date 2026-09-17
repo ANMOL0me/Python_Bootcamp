@@ -16,7 +16,3 @@ while count < 4:
 i = 6
 while i<8:
     print(i)
-
-
-
-
